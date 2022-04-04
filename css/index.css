@@ -145,7 +145,7 @@ body {
     box-sizing: border-box;
   }
   body {
-    background-image: url("../images/pizarra.svg");
+    background-image: url('../images/pizarra.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
