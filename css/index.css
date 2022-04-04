@@ -156,7 +156,6 @@ body {
   /* HEADER */
   header{
     width: 100%;
-    height: 100%;
     margin-top: 50px;
   }
 
@@ -194,15 +193,16 @@ body {
   .main_title h1 {
     text-align: center;
     font-family: "kg_second_chances_sketchRg";
-    font-size: 3.5em;
+    font-size: 3em;
     color: #ffffff;
-    line-height: 70px;
+    line-height: 60px;
     margin-top: 100px;
+    margin: 0;
   }
 
   .button_play_index {
-    width: 200px;
-    height: 80px;
+    width: 180px;
+    height: 70px;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -217,11 +217,11 @@ body {
 
   .button_play_index a {
     position: absolute;
-    width: 200px;
-    height: 80px;
+    width: 180px;
+    height: 70px;
     text-align: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.7em;
     font-family: "loved_by_the_kingregular";
     color: #ffffff;
     background-color: #ffffff23;
@@ -250,11 +250,11 @@ body {
 
   .footer_paragraph {
     font-family: "loved_by_the_kingregular";
-    font-size: 1.4em;
+    font-size: 1.1em;
     text-align: center;
     align-items: center;
     color: #ffffff;
-    line-height: 40px;
+    line-height: 25px;
     margin-bottom: 20px;
   }
 }
@@ -279,6 +279,7 @@ body {
   .main_title h1 {
     font-size: 4.1em;
     line-height: 80px;
+    margin: 0 200px;
   }
 
   .button_play_index {
@@ -320,8 +321,9 @@ body {
 
   /* MAIN */
   .main_title h1 {
-    font-size: 5.5em;
+    font-size: 5em;
     line-height: 100px;
+    margin: 0 200px;
   }
 
   .button_play_index {
@@ -339,7 +341,7 @@ body {
 
   /* FOOTER */
   .footer_paragraph {
-    font-size: 2.3em;
+    font-size: 1.8em;
     line-height: 50px;
     margin-bottom: 30px;
   }
@@ -348,12 +350,12 @@ body {
   /* HEADER */
   
   .header_nav h2 {
-    font-size: 2.2em;
+    font-size: 3em;
     margin-left: 330px;
   }
 
   .socials_icons {
-    width: 45px;
+    width: 50px;
     margin-left: 15px;
   }
 
@@ -361,6 +363,7 @@ body {
   .main_title h1 {
     font-size: 6.8em;
     line-height: 130px;
+    
   }
 
   .button_play_index {
