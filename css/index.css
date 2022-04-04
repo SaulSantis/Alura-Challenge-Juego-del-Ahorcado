@@ -7,14 +7,14 @@
 /* FUENTES */
 @font-face {
   font-family: "kg_second_chances_sketchRg";
-  src: url("../Fonts/kgsecondchancessketch-webfont.woff2") format("woff2"),
-    url("../Fonts/kgsecondchancessketch-webfont.woff") format("woff");
+  src: url("../fonts/kgsecondchancessketch-webfont.woff2") format("woff2"),
+    url("../fonts/kgsecondchancessketch-webfont.woff") format("woff");
 }
 
 @font-face {
   font-family: "kg_second_chances_solidRg";
-  src: url("../Fonts/kgsecondchancessolid-webfont.woff2") format("woff2"),
-    url("../Fonts/kgsecondchancessolid-webfont.woff") format("woff");
+  src: url("../fonts/kgsecondchancessolid-webfont.woff2") format("woff2"),
+    url("../fonts/kgsecondchancessolid-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -145,7 +145,7 @@ body {
     box-sizing: border-box;
   }
   body {
-    background-image: url(../Images/pizarra.jpg);
+    background-image: url(../images/pizarra.svg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -277,26 +277,26 @@ body {
 
   /* MAIN */
   .main_title h1 {
-    font-size: 5.5em;
-    line-height: 100px;
+    font-size: 4.1em;
+    line-height: 80px;
   }
 
   .button_play_index {
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 80px;
   }
 
   .button_play_index a {
     position: absolute;
-    width: 300px;
-    height: 100px;
-    font-size: 2.5em;
-    padding-top: 35px;
+    width: 200px;
+    height: 80px;
+    font-size: 2em;
+    padding-top: 25px;
   }
 
   /* FOOTER */
   .footer_paragraph {
-    font-size: 2.3em;
+    font-size: 1.8em;
     line-height: 50px;
     margin-bottom: 30px;
   }
@@ -322,6 +322,45 @@ body {
   .main_title h1 {
     font-size: 5.5em;
     line-height: 100px;
+  }
+
+  .button_play_index {
+    width: 300px;
+    height: 100px;
+  }
+
+  .button_play_index a {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    font-size: 2.5em;
+    padding-top: 35px;
+  }
+
+  /* FOOTER */
+  .footer_paragraph {
+    font-size: 2.3em;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-device-width: 1280px) {
+  /* HEADER */
+  
+  .header_nav h2 {
+    font-size: 2.2em;
+    margin-left: 330px;
+  }
+
+  .socials_icons {
+    width: 45px;
+    margin-left: 15px;
+  }
+
+  /* MAIN */
+  .main_title h1 {
+    font-size: 6.8em;
+    line-height: 130px;
   }
 
   .button_play_index {
