@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FUENTES */
+@font-face {
+  font-family: "kg_second_chances_sketchRg";
+  src: url("../Fonts/kgsecondchancessketch-webfont.woff2") format("woff2"),
+    url("../Fonts/kgsecondchancessketch-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "kg_second_chances_solidRg";
+  src: url("../Fonts/kgsecondchancessolid-webfont.woff2") format("woff2"),
+    url("../Fonts/kgsecondchancessolid-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "loved_by_the_kingregular";
+  src: url("../fonts/lovedbytheking-regular-webfont.woff2") format("woff2"),
+    url("../fonts/lovedbytheking-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* 
+body {
+  background-image: url(../Images/pizarra.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+/* .header_nav {
+  display: flex;
+  margin: 40px auto;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.header_nav h2 {
+  text-align: center;
+  align-items: center;
+  font-family: "kg_second_chances_solidRg";
+  font-size: 2em;
+  color: #ffffff;
+  margin-left: 470px;
+  padding-top: 5px;
+}
+
+.socials_icons {
+  width: 40px;
+  margin-left: 20px;
+  transition: 0.4s all ease-in-out;
+}
+
+.socials_icons:hover {
+  transform: scale(1.3);
+} */
+
+/* MAIN */
+/* .main_title h1 {
+  width: 800px;
+  font-family: "kg_second_chances_sketchRg";
+  font-size: 6.5em;
+  text-align: center;
+  color: #ffffff;
+  line-height: 130px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button_play_index {
+  width: 200px;
+  height: 80px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.4s all ease-in-out;
+}
+
+.button_play_index:hover {
+  transform: scale(1.1);
+}
+
+.button_play_index a {
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "loved_by_the_kingregular";
+  color: #ffffff;
+  background-color: #ffffff23;
+  border: none;
+  border-radius: 10px;
+  padding-top: 25px;
+} */
+
+/* FOOTER */
+/* footer {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.footer_container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.footer_drew img {
+  width: 250px;
+  justify-content: left;
+}
+
+.footer_paragraph {
+  font-family: "loved_by_the_kingregular";
+  font-size: 2em;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  line-height: 50px;
+  margin-right: 30%;
+} */
+
+@media only screen and (min-device-width: 320px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url(../Images/pizarra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+  }
+
+  /* HEADER */
+  header{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .header_nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+
+  .header_nav h2 {
+    margin-top: 5px;
+    font-family: "kg_second_chances_solidRg";
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-right: 20px;
+  }
+
+  .socials_icons {
+    width: 30px;
+    margin-left: 5px;
+    transition: 0.4s all ease-in-out;
+  }
+
+  .socials_icons:hover {
+    transform: scale(1.3);
+  }
+
+  /* MAIN */
+
+  main{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 180px;
+  }
+  .main_title h1 {
+    text-align: center;
+    font-family: "kg_second_chances_sketchRg";
+    font-size: 3.5em;
+    color: #ffffff;
+    line-height: 70px;
+    margin-top: 100px;
+  }
+
+  .button_play_index {
+    width: 200px;
+    height: 80px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.4s all ease-in-out;
+  }
+
+  .button_play_index:hover {
+    transform: scale(1.1);
+  }
+
+  .button_play_index a {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: "loved_by_the_kingregular";
+    color: #ffffff;
+    background-color: #ffffff23;
+    border: none;
+    border-radius: 10px;
+    padding-top: 25px;
+  }
+
+  /* FOOTER */
+  footer {
+    position: fixed;
+    align-self: flex-end;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .footer_drew img {
+    visibility: hidden;
+  }
+
+  .footer_paragraph {
+    font-family: "loved_by_the_kingregular";
+    font-size: 1.4em;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  /* HEADER */
+  header{
+    margin-top: 70px;
+  }
+  
+  .header_nav h2 {
+    font-size: 2em;
+    margin-left: 200px;
+  }
+
+  .socials_icons {
+    width: 40px;
+    margin-left: 10px;
+  }
+
+  /* MAIN */
+  .main_title h1 {
+    font-size: 5.5em;
+    line-height: 100px;
+  }
+
+  .button_play_index {
+    width: 300px;
+    height: 100px;
+  }
+
+  .button_play_index a {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    font-size: 2.5em;
+    padding-top: 35px;
+  }
+
+  /* FOOTER */
+  .footer_paragraph {
+    font-size: 2.3em;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) {
+  /* HEADER */
+  header{
+    margin-top: 70px;
+  }
+  
+  .header_nav h2 {
+    font-size: 2em;
+    margin-left: 260px;
+  }
+
+  .socials_icons {
+    width: 40px;
+    margin-left: 10px;
+  }
+
+  /* MAIN */
+  .main_title h1 {
+    font-size: 5.5em;
+    line-height: 100px;
+  }
+
+  .button_play_index {
+    width: 300px;
+    height: 100px;
+  }
+
+  .button_play_index a {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    font-size: 2.5em;
+    padding-top: 35px;
+  }
+
+  /* FOOTER */
+  .footer_paragraph {
+    font-size: 2.3em;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+}
